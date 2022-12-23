@@ -1,0 +1,95 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+.title{
+  font-size: large;
+  font-weight: bold;
+  margin: 10px;
+
+
+}
+.company{
+  font-size: medium;
+  font-weight: bolder;
+  padding: 10px;
+
+}
+.companyprofile{
+  display: flex;
+  gap: 1rem;
+}
+.salary{
+  font-size: 10px;
+  margin: 5px;
+
+
+}
+.datetime{
+  font-size: 10px;
+  margin: 5px;
+
+}
+.salarytime{
+  display: flex;
+  gap: 2rem;
+}
+.fight1{
+  display: flex;
+  /* gap: 4rem; */
+  /* flex-direction: column; */
+  flex-wrap: wrap;
+  flex: 40%;
+  margin: 10px 20px 10px 10px;
+
+
+
+
+}
+.fight2{
+  display: flex;
+  gap: 1rem;
+  flex-direction: column;
+  width: 40vw;
+  flex-wrap: wrap;
+
+}
+.detailsedit{
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
